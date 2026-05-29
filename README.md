@@ -1,3 +1,5 @@
+# group-09-lab_02
+
 # Day 02 Lab — Tìm Đúng Bài Toán Cho AI
 
 > Từ vấn đề thật quanh mình → workflow rõ → Problem Statement đủ chặt → chọn Rule / Workflow / Agent → quyết định Go / Not Yet / No-Go.
