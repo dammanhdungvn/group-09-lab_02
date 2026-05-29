@@ -1,4 +1,4 @@
-# BÀI TẬP NHÓM - NHÓM 09
+# 02 — Group Problem Statement
 
 ## AI hỗ trợ sinh viên xây dựng báo cáo dự án
 
@@ -10,8 +10,8 @@
 |---|---|---|
 | Đàm Mạnh Dũng | 2A202600741 | Tổng hợp problem statement, workflow, metric, decision |
 | Nguyễn Hoàng Thanh Tùng | 2A202600846 | Góp ý workflow hiện tại, challenge rủi ro AI bịa nội dung |
-| Đàm Mạnh A | 2A202600xxx | Đóng góp góc nhìn sinh viên viết đồ án/báo cáo |
-| Nguyễn Hoàng Thanh B | 2A202600xxx | Đóng góp góc nhìn format, bằng chứng, demo, kiểm thử |
+| Nguyễn Phan Duy Bảo | 2A202600688 | Đóng góp góc nhìn sinh viên viết đồ án/báo cáo |
+| Lê_Bá_Chiến | 2A202600755 | Đóng góp góc nhìn format, bằng chứng, demo, kiểm thử |
 
 ---
 
@@ -26,15 +26,15 @@ Nhóm không chốt ngay "xây AI". Mỗi thành viên đưa ra các vấn đề
 | 1 | Đàm Mạnh Dũng | Sinh viên làm xong sản phẩm nhưng mất rất lâu để viết báo cáo dự án | Sinh viên năm cuối/làm bài tập lớn | Tổng hợp source code, demo, test, README thành báo cáo | Rất phù hợp |
 | 2 | Đàm Mạnh Dũng | Không biết cấu trúc báo cáo nên bắt đầu từ đâu | Sinh viên mới làm đồ án | Blank page, thiếu outline | Phù hợp |
 | 3 | Đàm Mạnh Dũng | Báo cáo thiếu bằng chứng: ảnh demo, kết quả test, giải thích tính năng | Sinh viên nộp bài | Không có evidence matrix | Rất phù hợp |
-| 4 | Thanh Tùng | README và source code không khớp với báo cáo | Sinh viên dev | Update code nhưng quên update tài liệu | Phù hợp |
-| 5 | Thanh Tùng | Viết giải thích kỹ thuật khó hiểu với người chấm | Sinh viên IT | Chuyển code thành ngôn ngữ học thuật | Phù hợp |
-| 6 | Đàm Mạnh A | Cần format báo cáo LaTeX/Word theo mẫu trường | Sinh viên | Mất nhiều thời gian sửa format | Phù hợp một phần |
-| 7 | Đàm Mạnh A | Không biết chèn hình/chứng cứ vào phần nào | Sinh viên làm demo | Evidence nằm rải rác | Phù hợp |
-| 8 | Đàm Mạnh A | Cuối deadline mới phát hiện thiếu chương kiểm thử | Sinh viên | Checklist nộp bài không rõ | Phù hợp |
-| 9 | Nguyễn Hoàng Thanh B | Báo cáo nhiều người viết bị lệch giọng văn | Nhóm sinh viên | Không thống nhất style | Phù hợp |
-| 10 | Nguyễn Hoàng Thanh B | Tìm tài liệu tham khảo và trích dẫn mất thời gian | Sinh viên | Reference management | Phù hợp nhưng scope lớn |
-| 11 | Nguyễn Hoàng Thanh B | Chuyển nội dung từ Markdown sang LaTeX lỗi format | Sinh viên | Lỗi bảng, hình, citation | Phù hợp một phần |
-| 12 | Nguyễn Hoàng Thanh B | Gộp feedback của giảng viên vào bản sửa khó theo dõi | Sinh viên | Không có version/checklist sửa lỗi | Scope lớn hơn |
+| 4 | Nguyễn Hoàng Thanh Tùng | README và source code không khớp với báo cáo | Sinh viên dev | Update code nhưng quên update tài liệu | Phù hợp |
+| 5 | Nguyễn Hoàng Thanh Tùng | Viết giải thích kỹ thuật khó hiểu với người chấm | Sinh viên IT | Chuyển code thành ngôn ngữ học thuật | Phù hợp |
+| 6 | Nguyễn Phan Duy Bảo | Cần format báo cáo LaTeX/Word theo mẫu trường | Sinh viên | Mất nhiều thời gian sửa format | Phù hợp một phần |
+| 7 | Nguyễn Phan Duy Bảo | Không biết chèn hình/chứng cứ vào phần nào | Sinh viên làm demo | Evidence nằm rải rác | Phù hợp |
+| 8 | Nguyễn Phan Duy Bảo | Cuối deadline mới phát hiện thiếu chương kiểm thử | Sinh viên | Checklist nộp bài không rõ | Phù hợp |
+| 9 | Lê_Bá_Chiến | Báo cáo nhiều người viết bị lệch giọng văn | Nhóm sinh viên | Không thống nhất style | Phù hợp |
+| 10 | Lê_Bá_Chiến | Tìm tài liệu tham khảo và trích dẫn mất thời gian | Sinh viên | Reference management | Phù hợp nhưng scope lớn |
+| 11 | Lê_Bá_Chiến | Chuyển nội dung từ Markdown sang LaTeX lỗi format | Sinh viên | Lỗi bảng, hình, citation | Phù hợp một phần |
+| 12 | Lê_Bá_Chiến | Gộp feedback của giảng viên vào bản sửa khó theo dõi | Sinh viên | Không có version/checklist sửa lỗi | Scope lớn hơn |
 
 ## 1.2. Gom trùng / cluster
 
@@ -260,4 +260,3 @@ Nếu draft sai -> sinh viên loại bỏ đoạn sai và tự sửa dựa trên
 - [x] Có so sánh No AI / Rule / Workflow / Agent.
 - [x] Có decision Go / Not Yet / No-Go và pilot nhỏ nhất.
 - [x] Có nguyên tắc human review: AI hỗ trợ, sinh viên chịu trách nhiệm.
-

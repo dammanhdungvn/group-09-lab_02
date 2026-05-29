@@ -1,5 +1,6 @@
-# PHASE 7 — INDIVIDUAL REFLECTION
+# 03 — Individual Reflection
 
+## Nguyễn Hoàng Thanh Tùng - 2A202600846
 
 ## 1. TÔI ĐÃ THAM GIA VÀO PHẦN NÀO?
 

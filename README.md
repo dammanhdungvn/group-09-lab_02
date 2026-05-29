@@ -5,7 +5,7 @@
 
 ## Tài liệu trong folder này
 
-Folder này chỉ giữ các file cần thiết:
+Repo này là repo chung của nhóm 09. Mỗi thành viên có file cá nhân riêng trong đúng folder chuẩn, còn report nhóm nằm chung một bản.
 
 | File | Dùng để làm gì |
 |---|---|
@@ -14,20 +14,29 @@ Folder này chỉ giữ các file cần thiết:
 
 ## Cấu trúc repo nộp bài
 
-Mỗi học viên nộp **một repo cá nhân**:
+Repo chung của nhóm 09 được sắp như sau:
 
 ```text
-Day02-MãHọcViên-HọVàTên/
+.
 ├── README.md
 ├── 01-individual-problem-scan/
+│   ├── Đàm Mạnh Dũng - 2A202600741.md
+│   ├── Nguyễn Hoàng Thanh Tùng - 2A202600846.md
+│   ├── Nguyễn Phan Duy Bảo - 2A202600688.md
+│   └── Lê Bá Chiến - 2A202600755.md
 ├── 02-group-problem-statement/
+│   └── Report nhóm - Nhóm 09.md
 └── 03-individual-reflection/
+    ├── Đàm Mạnh Dũng - 2A202600741.md
+    ├── Nguyễn Hoàng Thanh Tùng - 2A202600846.md
+    ├── Nguyễn Phan Duy Bảo - 2A202600688.md
+    └── Lê Bá Chiến - 2A202600755.md
 ```
 
 Trong đó:
 
 - `01-individual-problem-scan/`: bài cá nhân, gồm scan 5+ problems, top 3 Problem Cards, draft workflow trước/sau.
-- `02-group-problem-statement/`: **bản nộp nhóm**. Nhóm 3-4 người làm chung một bản gồm nhật ký hội tụ, kiểm chứng/research, Problem Statement, Rule / Workflow / Agent, quyết định cuối, workflow trước/sau. Mỗi học viên copy bản cuối vào repo cá nhân của mình.
+- `02-group-problem-statement/`: **bản nộp nhóm**. Nhóm 3-4 người làm chung một bản gồm nhật ký hội tụ, kiểm chứng/research, Problem Statement, Rule / Workflow / Agent, quyết định cuối, workflow trước/sau.
 - `03-individual-reflection/`: reflection cá nhân về AI, vai trò trong nhóm, và bài học sau lab.
 
 Nếu có file phụ như ảnh workflow, Mermaid, survey screenshot, research notes, đặt cùng prefix với phần liên quan:
@@ -42,7 +51,7 @@ Nếu có file phụ như ảnh workflow, Mermaid, survey screenshot, research n
 
 1. Mở `02-deliverable-example.md` trước để nhìn một bản nộp tốt trông như thế nào.
 2. Làm theo `01-worksheet.md` từ Phase 1 đến Phase 7. Worksheet là hướng dẫn suy nghĩ theo từng bước, không chỉ là form để điền.
-3. Khi nộp, repo cá nhân cần có đủ 3 phần: problem scan cá nhân, bản nộp nhóm, reflection cá nhân.
+3. Khi nộp, repo chung cần có đủ 3 phần cho từng thành viên: problem scan cá nhân, bản nộp nhóm, reflection cá nhân.
 
 ## Tiêu chí đánh giá (100 điểm)
 

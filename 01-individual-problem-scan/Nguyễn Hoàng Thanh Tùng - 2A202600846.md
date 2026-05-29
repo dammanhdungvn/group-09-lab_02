@@ -1,4 +1,6 @@
-# Phase 1 & 2 — Individual Problem Scan & Top 3 Problem Cards
+# 01 — Individual Problem Scan
+
+## Nguyễn Hoàng Thanh Tùng - 2A202600846
 
 _Bối cảnh vai trò:_ Chuyên viên Chuyển đổi số (Digital Transformation Specialist) chịu trách nhiệm số hóa tài liệu, văn bản hành chính đặc thù và xây dựng cơ sở dữ liệu lưu trữ số cho cơ quan Nhà nước.
 
