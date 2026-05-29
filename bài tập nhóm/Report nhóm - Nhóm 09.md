@@ -1,71 +1,71 @@
-# BAI TAP NHOM - GROUP 09
+# BÀI TẬP NHÓM - NHÓM 09
 
-## AI ho tro sinh vien xay dung bao cao du an
+## AI hỗ trợ sinh viên xây dựng báo cáo dự án
 
-**Repo nop bai:** `git@github.com:dammanhdungvn/group-09-lab_02.git`  
-**Nhom:** 09  
-**De tai:** AI Report Assistant - giup sinh vien bien nhung gi da lam trong du an thanh bao cao hoan chinh dang Markdown/LaTeX, co lien ket voi bang chung that.
+**Repo nộp bài:** `git@github.com:dammanhdungvn/group-09-lab_02.git`  
+**Nhóm:** 09  
+**Đề tài:** AI Report Assistant - giúp sinh viên biến những gì đã làm trong dự án thành một báo cáo hoàn chỉnh dạng Markdown/LaTeX, có liên kết với bằng chứng thật.
 
-| Ho va ten | Ma sinh vien | Vai tro trong bai nhom |
+| Họ và tên | Mã sinh viên | Vai trò trong bài nhóm |
 |---|---|---|
-| Dam Manh Dung | 2A202600741 | Tong hop problem statement, workflow, metric, decision |
-| Nguyen Hoang Thanh Tung | 2A202600846 | Gop y workflow hien tai, challenge rui ro AI bia noi dung |
-| Dam Manh A | 2A202600xxx | Dong gop goc nhin sinh vien viet do an/bao cao |
-| Nguyen Hoang Thanh B | 2A202600xxx | Dong gop goc nhin format, bang chung, demo, kiem thu |
+| Đàm Mạnh Dũng | 2A202600741 | Tổng hợp problem statement, workflow, metric, decision |
+| Nguyễn Hoàng Thanh Tùng | 2A202600846 | Góp ý workflow hiện tại, challenge rủi ro AI bịa nội dung |
+| Đàm Mạnh A | 2A202600xxx | Đóng góp góc nhìn sinh viên viết đồ án/báo cáo |
+| Nguyễn Hoàng Thanh B | 2A202600xxx | Đóng góp góc nhìn format, bằng chứng, demo, kiểm thử |
 
 ---
 
-# 1. Group convergence
+# 1. Hội tụ nhóm
 
-## 1.1. Cac candidate problems ban dau
+## 1.1. Các candidate problems ban đầu
 
-Nhom khong chot ngay "xay AI". Moi thanh vien dua ra cac van de quan sat duoc trong hoc tap, lam bai tap lon va lam du an.
+Nhóm không chốt ngay "xây AI". Mỗi thành viên đưa ra các vấn đề quan sát được trong học tập, làm bài tập lớn và làm dự án.
 
-| # | Nguoi dua ra | Candidate problem | Nguoi gap van de | Diem nghen | Cam nhan nhanh |
+| # | Người đưa ra | Candidate problem | Người gặp vấn đề | Điểm nghẽn | Cảm nhận nhanh |
 |---:|---|---|---|---|---|
-| 1 | Dam Manh Dung | Sinh vien lam xong san pham nhung mat rat lau de viet bao cao du an | Sinh vien nam cuoi/lam bai tap lon | Tong hop source code, demo, test, README thanh bao cao | Rat phu hop |
-| 2 | Dam Manh Dung | Khong biet cau truc bao cao nen bat dau tu dau | Sinh vien moi lam do an | Blank page, thieu outline | Phu hop |
-| 3 | Dam Manh Dung | Bao cao thieu bang chung: anh demo, ket qua test, giai thich tinh nang | Sinh vien nop bai | Khong co evidence matrix | Rat phu hop |
-| 4 | Thanh Tung | README va source code khong khop voi bao cao | Sinh vien dev | Update code nhung quen update tai lieu | Phu hop |
-| 5 | Thanh Tung | Viet giai thich ky thuat kho hieu voi nguoi cham | Sinh vien IT | Chuyen code thanh ngon ngu hoc thuat | Phu hop |
-| 6 | Thanh Tung | Can format LaTeX/Word theo mau truong | Sinh vien | Mat nhieu thoi gian sua format | Phu hop mot phan |
-| 7 | Dam Manh A | Khong biet chen hinh/chung cu vao phan nao | Sinh vien lam demo | Evidence nam rai rac | Phu hop |
-| 8 | Dam Manh A | Cuoi deadline moi phat hien thieu chuong kiem thu | Sinh vien | Checklist nop bai khong ro | Phu hop |
-| 9 | Dam Manh A | Bao cao nhieu nguoi viet bi lech giong van | Nhom sinh vien | Khong thong nhat style | Phu hop |
-| 10 | Nguyen Hoang Thanh B | Tim tai lieu tham khao va trich dan mat thoi gian | Sinh vien | Reference management | Phu hop nhung scope lon |
-| 11 | Nguyen Hoang Thanh B | Chuyen noi dung tu Markdown sang LaTeX loi format | Sinh vien | Loi bang, hinh, citation | Phu hop mot phan |
-| 12 | Nguyen Hoang Thanh B | Gop feedback cua giang vien vao ban sua kho theo doi | Sinh vien | Khong co version/checklist sua loi | Scope lon hon |
+| 1 | Đàm Mạnh Dũng | Sinh viên làm xong sản phẩm nhưng mất rất lâu để viết báo cáo dự án | Sinh viên năm cuối/làm bài tập lớn | Tổng hợp source code, demo, test, README thành báo cáo | Rất phù hợp |
+| 2 | Đàm Mạnh Dũng | Không biết cấu trúc báo cáo nên bắt đầu từ đâu | Sinh viên mới làm đồ án | Blank page, thiếu outline | Phù hợp |
+| 3 | Đàm Mạnh Dũng | Báo cáo thiếu bằng chứng: ảnh demo, kết quả test, giải thích tính năng | Sinh viên nộp bài | Không có evidence matrix | Rất phù hợp |
+| 4 | Thanh Tùng | README và source code không khớp với báo cáo | Sinh viên dev | Update code nhưng quên update tài liệu | Phù hợp |
+| 5 | Thanh Tùng | Viết giải thích kỹ thuật khó hiểu với người chấm | Sinh viên IT | Chuyển code thành ngôn ngữ học thuật | Phù hợp |
+| 6 | Đàm Mạnh A | Cần format báo cáo LaTeX/Word theo mẫu trường | Sinh viên | Mất nhiều thời gian sửa format | Phù hợp một phần |
+| 7 | Đàm Mạnh A | Không biết chèn hình/chứng cứ vào phần nào | Sinh viên làm demo | Evidence nằm rải rác | Phù hợp |
+| 8 | Đàm Mạnh A | Cuối deadline mới phát hiện thiếu chương kiểm thử | Sinh viên | Checklist nộp bài không rõ | Phù hợp |
+| 9 | Nguyễn Hoàng Thanh B | Báo cáo nhiều người viết bị lệch giọng văn | Nhóm sinh viên | Không thống nhất style | Phù hợp |
+| 10 | Nguyễn Hoàng Thanh B | Tìm tài liệu tham khảo và trích dẫn mất thời gian | Sinh viên | Reference management | Phù hợp nhưng scope lớn |
+| 11 | Nguyễn Hoàng Thanh B | Chuyển nội dung từ Markdown sang LaTeX lỗi format | Sinh viên | Lỗi bảng, hình, citation | Phù hợp một phần |
+| 12 | Nguyễn Hoàng Thanh B | Gộp feedback của giảng viên vào bản sửa khó theo dõi | Sinh viên | Không có version/checklist sửa lỗi | Scope lớn hơn |
 
-## 1.2. Gom trung / cluster
+## 1.2. Gom trùng / cluster
 
-| Cluster | Candidates included | Pattern chung | Ghi chu |
+| Cluster | Candidates included | Pattern chung | Ghi chú |
 |---|---|---|---|
-| A. Tong hop bao cao tu du an that | 1, 2, 3, 4, 5, 7, 8 | Bien nhieu nguon du lieu du an thanh bao cao co cau truc | Cluster manh nhat |
-| B. Format va xuat tai lieu | 6, 11 | Chuyen noi dung sang LaTeX/Word theo mau | Nen la mot phan trong workflow, khong phai problem chinh |
-| C. Quan ly tham khao | 10 | Tim va trich dan tai lieu | Can giai phap rieng, de vuot scope lab |
-| D. Lam viec nhom va version | 9, 12 | Nhieu nguoi viet, nhieu feedback, kho dong bo | Co lien quan nhung scope rong |
+| A. Tổng hợp báo cáo từ dự án thật | 1, 2, 3, 4, 5, 7, 8 | Biến nhiều nguồn dữ liệu dự án thành báo cáo có cấu trúc | Cluster mạnh nhất |
+| B. Format và xuất tài liệu | 6, 11 | Chuyển nội dung sang LaTeX/Word theo mẫu | Nên là một phần trong workflow, không phải problem chính |
+| C. Quản lý tham khảo | 10 | Tìm và trích dẫn tài liệu | Cần giải pháp riêng, dễ vượt scope lab |
+| D. Làm việc nhóm và version | 9, 12 | Nhiều người viết, nhiều feedback, khó đồng bộ | Có liên quan nhưng scope rộng |
 
 ## 1.3. Shortlist
 
-| Candidate | Vi sao vao shortlist | Rui ro / dieu chua ro |
+| Candidate | Vì sao vào shortlist | Rủi ro / điều chưa rõ |
 |---|---|---|
-| AI Report Assistant cho bao cao du an | Actor ro, workflow ro, dau that, co metric thoi gian va chat luong | Can tranh AI viet thay/tao noi dung khong co bang chung |
-| Tool format bao cao Markdown/LaTeX | De hieu, de lam pilot | Chi giai quyet format, khong giai quyet tong hop noi dung |
-| Evidence checklist cho bao cao | Giam thieu sot bang chung | Co the chi can rule/checklist, chua chac can AI |
+| AI Report Assistant cho báo cáo dự án | Actor rõ, workflow rõ, đau thật, có metric thời gian và chất lượng | Cần tránh AI viết thay/tạo nội dung không có bằng chứng |
+| Tool format báo cáo Markdown/LaTeX | Dễ hiểu, dễ làm pilot | Chỉ giải quyết format, không giải quyết tổng hợp nội dung |
+| Evidence checklist cho báo cáo | Giảm thiếu sót bằng chứng | Có thể chỉ cần rule/checklist, chưa chắc cần AI |
 
-## 1.4. Score de dong thuan
+## 1.4. Score để đồng thuận
 
-| Candidate | Actor ro | Workflow ro | Pain co evidence | Impact do duoc | Lam trong lab | So sanh R/W/A duoc | Nhom hieu domain | Tong |
+| Candidate | Actor rõ | Workflow rõ | Pain có evidence | Impact đo được | Làm trong lab | So sánh R/W/A được | Nhóm hiểu domain | Tổng |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| AI Report Assistant cho bao cao du an | 5 | 5 | 4 | 5 | 5 | 5 | 5 | 34 |
+| AI Report Assistant cho báo cáo dự án | 5 | 5 | 4 | 5 | 5 | 5 | 5 | 34 |
 | Tool format Markdown/LaTeX | 5 | 4 | 4 | 3 | 5 | 3 | 5 | 29 |
-| Evidence checklist cho bao cao | 5 | 4 | 4 | 4 | 5 | 4 | 5 | 31 |
+| Evidence checklist cho báo cáo | 5 | 4 | 4 | 4 | 5 | 4 | 5 | 31 |
 
-**Candidate nhom chon:** AI Report Assistant cho bao cao du an.
+**Candidate nhóm chọn:** AI Report Assistant cho báo cáo dự án.
 
-**Vi sao chon:** day la bai toan co actor ro, workflow dai va lap lai, co bottleneck cu the o buoc tong hop/trinh bay, co the do thoi gian hoan thien ban nhap va so muc thieu bang chung. Giai phap khong can de AI tu viet thay toan bo bao cao, ma dat AI vao mot workflow co nguoi that kiem tra.
+**Vì sao chọn:** đây là bài toán có actor rõ, workflow dài và lặp lại, có bottleneck cụ thể ở bước tổng hợp/trình bày, có thể đo thời gian hoàn thiện bản nháp và số mục thiếu bằng chứng. Giải pháp không cần để AI tự viết thay toàn bộ báo cáo, mà đặt AI vào một workflow có người thật kiểm tra.
 
-**Vi sao khong chon cac candidate con lai:** tool format chi giai quyet phan cuoi; evidence checklist huu ich nhung neu dung mot minh thi chua giai quyet van de sinh vien khong biet noi cac bang chung thanh narrative bao cao.
+**Vì sao không chọn các candidate còn lại:** tool format chỉ giải quyết phần cuối; evidence checklist hữu ích nhưng nếu dùng một mình thì chưa giải quyết vấn đề sinh viên không biết nối các bằng chứng thành narrative báo cáo.
 
 ---
 
@@ -73,95 +73,95 @@ Nhom khong chot ngay "xay AI". Moi thanh vien dua ra cac van de quan sat duoc tr
 
 ## 2.1. Quick validation
 
-Ghi chu trung thuc: cac so lieu duoi day la uoc luong trong pham vi lab dua tren trai nghiem cua nhom va trao doi nhanh. Neu lam san pham that, nhom can do lai bang log/report mau trong pilot.
+Ghi chú trung thực: các số liệu dưới đây là ước lượng trong phạm vi lab dựa trên trải nghiệm của nhóm và trao đổi nhanh. Nếu làm sản phẩm thật, nhóm cần đo lại bằng log/report mẫu trong pilot.
 
-| Nguon | So nguoi / so mau | Tin hieu xac nhan | Tin hieu phan bac | Nhom sua problem the nao |
+| Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác | Nhóm sửa problem thế nào |
 |---|---:|---|---|---|
-| Thao luan noi bo nhom | 4 | Ca 4 thanh vien deu tung gap kho khi tong hop code, anh demo, test, README vao bao cao | Muc do dau khac nhau tuy mon hoc | Thu hep actor vao sinh vien lam bai tap lon/do an co source code va demo |
-| Trao doi nhanh voi ban hoc | 5 | 4/5 noi viet bao cao ton nhieu ngay cuoi; 3/5 hay thieu hinh demo/test result | 1 ban noi chi can mau bao cao ro la du | Them non-AI alternative: template + checklist |
-| Review noi dung slide de tai | 10 slide | Slide xac nhan cac pain: thong tin rai rac, kho trinh bay, de thieu bang chung, ap luc deadline | Chua co so lieu dinh luong that | Dat metric pilot de do: thoi gian draft, so muc thieu, so loi khong khop |
+| Thảo luận nội bộ nhóm | 4 | Cả 4 thành viên đều từng gặp khó khi tổng hợp code, ảnh demo, test, README vào báo cáo | Mức độ đau khác nhau tùy môn học | Thu hẹp actor vào sinh viên làm bài tập lớn/đồ án có source code và demo |
+| Trao đổi nhanh với bạn học | 5 | 4/5 nói viết báo cáo tốn nhiều ngày cuối; 3/5 hay thiếu hình demo/test result | 1 bạn nói chỉ cần mẫu báo cáo rõ là đủ | Thêm non-AI alternative: template + checklist |
+| Review nội dung slide đề tài | 10 slide | Slide xác nhận các pain: thông tin rải rác, khó trình bày, dễ thiếu bằng chứng, áp lực deadline | Chưa có số liệu định lượng thật | Đặt metric pilot để đo: thời gian draft, số mục thiếu, số lỗi không khớp |
 
 **Insight sau validation:**
 
 ```text
-Pain khong nam o viec "AI viet ho bao cao".
-Pain nam o viec sinh vien phai tong hop nhieu bang chung rai rac va bien chung thanh mot cau truc bao cao nhat quan.
+Pain không nằm ở việc "AI viết hộ báo cáo".
+Pain nằm ở việc sinh viên phải tổng hợp nhiều bằng chứng rải rác và biến chúng thành một cấu trúc báo cáo nhất quán.
 ```
 
-## 2.2. Research giai phap da co
+## 2.2. Research giải pháp đã có
 
-| Nguon / tool / case | Link | Ho giai quyet phan nao? | Diem manh | Khoang trong / rui ro | Bai hoc cho nhom |
+| Nguồn / tool / case | Link | Họ giải quyết phần nào? | Điểm mạnh | Khoảng trống / rủi ro | Bài học cho nhóm |
 |---|---|---|---|---|---|
-| Overleaf | [overleaf.com/about/features-overview](https://www.overleaf.com/about/features-overview) | Viet, bien dich va cong tac tren tai lieu LaTeX | Tot cho format, collaboration, xuat PDF | Khong tu hieu source code/demo/test cua du an sinh vien | Nen xuat LaTeX/Markdown, nhung khong coi format la toan bo solution |
-| Gemini in Drive | [support.google.com/drive/answer/15141241](https://support.google.com/drive/answer/15141241) | Tom tat va lay insight tu file/folder | Tot khi tai lieu nam trong Drive | Phu thuoc file duoc cung cap; can kiem nguon | AI co the ho tro doc/tom tat tai lieu, nhung phai co evidence link |
-| GitHub Copilot | [docs.github.com/copilot](https://docs.github.com/en/copilot/overview-of-github-copilot/about-github-copilot) | Ho tro hieu/viet code va giai thich context code | Tot cho code-level explanation | Khong tu dong bien toan bo du an thanh bao cao hoc thuat | Co the dung nhu input giai thich module, khong thay report workflow |
-| Grammarly AI Writing Assistant | [grammarly.com/ai-writing-assistant](https://www.grammarly.com/ai-writing-assistant) | Ho tro viet va sua ngon ngu | Tot cho dien dat, tone, grammar | Co the lam noi dung hay nhung khong dam bao dung voi du an | AI writing chi nen la buoc polish/draft, khong phai nguon su that |
+| Overleaf | [overleaf.com/about/features-overview](https://www.overleaf.com/about/features-overview) | Viết, biên dịch và cộng tác trên tài liệu LaTeX | Tốt cho format, collaboration, xuất PDF | Không tự hiểu source code/demo/test của dự án sinh viên | Nên xuất LaTeX/Markdown, nhưng không coi format là toàn bộ solution |
+| Gemini in Drive | [support.google.com/drive/answer/15141241](https://support.google.com/drive/answer/15141241) | Tóm tắt và lấy insight từ file/folder | Tốt khi tài liệu nằm trong Drive | Phụ thuộc file được cung cấp; cần kiểm nguồn | AI có thể hỗ trợ đọc/tóm tắt tài liệu, nhưng phải có evidence link |
+| GitHub Copilot | [docs.github.com/copilot](https://docs.github.com/en/copilot/overview-of-github-copilot/about-github-copilot) | Hỗ trợ hiểu/viết code và giải thích context code | Tốt cho code-level explanation | Không tự động biến toàn bộ dự án thành báo cáo học thuật | Có thể dùng như input giải thích module, không thay report workflow |
+| Grammarly AI Writing Assistant | [grammarly.com/ai-writing-assistant](https://www.grammarly.com/ai-writing-assistant) | Hỗ trợ viết và sửa ngôn ngữ | Tốt cho diễn đạt, tone, grammar | Có thể làm nội dung hay nhưng không đảm bảo đúng với dự án | AI writing chỉ nên là bước polish/draft, không phải nguồn sự thật |
 
 **Research takeaway:**
 
 ```text
-Nen chon Workflow: gom tai lieu du an -> phan loai -> de xuat outline -> tao evidence matrix -> draft tung phan -> sinh vien review -> xuat Markdown/LaTeX.
-Khong nen chon Agent tu dong nop bao cao vi rui ro bia noi dung, sai bang chung va vuot boundary hoc tap.
+Nên chọn Workflow: gom tài liệu dự án -> phân loại -> đề xuất outline -> tạo evidence matrix -> draft từng phần -> sinh viên review -> xuất Markdown/LaTeX.
+Không nên chọn Agent tự động nộp báo cáo vì rủi ro bịa nội dung, sai bằng chứng và vượt boundary học tập.
 ```
 
 ---
 
-# 3. Workflow before/after
+# 3. Workflow trước / sau
 
 ## 3.1. Current workflow
 
 ```text
-CURRENT STATE - 8 buoc, uoc luong 24-40 gio cho mot bao cao du an
+CURRENT STATE - 8 bước, ước lượng 24-40 giờ cho một báo cáo dự án
 
-[1 Hoan thanh source code/demo]
--> [2 Tim lai README, screenshot, test result, ghi chu: 3-6h]
--> [3 Doc lai yeu cau giang vien/mau bao cao: 1-2h]
--> [4 Tu lap outline bao cao: 2-4h]
--> [5 Viet cac chuong: mo dau, phan tich, thiet ke, cai dat, kiem thu: 10-18h] <-- bottleneck
--> [6 Chen hinh, bang, ket qua test, citation: 4-6h]
--> [7 Sua format Markdown/Word/LaTeX: 2-4h]
--> [8 Review lan cuoi va nop: 2-4h]
+[1 Hoàn thành source code/demo]
+-> [2 Tìm lại README, screenshot, test result, ghi chú: 3-6h]
+-> [3 Đọc lại yêu cầu giảng viên/mẫu báo cáo: 1-2h]
+-> [4 Tự lập outline báo cáo: 2-4h]
+-> [5 Viết các chương: mở đầu, phân tích, thiết kế, cài đặt, kiểm thử: 10-18h] <-- bottleneck
+-> [6 Chèn hình, bảng, kết quả test, citation: 4-6h]
+-> [7 Sửa format Markdown/Word/LaTeX: 2-4h]
+-> [8 Review lần cuối và nộp: 2-4h]
 ```
 
-| Buoc | Actor | Input | Output | Thoi gian/tan suat | Ghi chu |
+| Bước | Actor | Input | Output | Thời gian/tần suất | Ghi chú |
 |---:|---|---|---|---|---|
-| 1 | Sinh vien/nhom | Source code, demo | San pham co the chay | Theo tien do du an | Chua thanh bao cao |
-| 2 | Sinh vien | Code, README, anh demo, test | Tap thong tin thô | 3-6 gio | Thong tin rai rac |
-| 3 | Sinh vien | Rubric, mau bao cao | Danh sach yeu cau | 1-2 gio | De bo sot field |
-| 4 | Sinh vien | Yeu cau + thong tin thô | Outline | 2-4 gio | Blank page |
-| 5 | Sinh vien | Outline + bang chung | Ban nhap noi dung | 10-18 gio | Bottleneck chinh |
-| 6 | Sinh vien | Anh/demo/test/reference | Bang chung trong bao cao | 4-6 gio | De chen sai/doi cho |
-| 7 | Sinh vien | Ban nhap | File dung format | 2-4 gio | Nhieu loi nho |
-| 8 | Sinh vien/nhom | File bao cao | Ban nop cuoi | 2-4 gio | Review thu cong |
+| 1 | Sinh viên/nhóm | Source code, demo | Sản phẩm có thể chạy | Theo tiến độ dự án | Chưa thành báo cáo |
+| 2 | Sinh viên | Code, README, ảnh demo, test | Tập thông tin thô | 3-6 giờ | Thông tin rải rác |
+| 3 | Sinh viên | Rubric, mẫu báo cáo | Danh sách yêu cầu | 1-2 giờ | Dễ bỏ sót field |
+| 4 | Sinh viên | Yêu cầu + thông tin thô | Outline | 2-4 giờ | Blank page |
+| 5 | Sinh viên | Outline + bằng chứng | Bản nháp nội dung | 10-18 giờ | Bottleneck chính |
+| 6 | Sinh viên | Ảnh/demo/test/reference | Bằng chứng trong báo cáo | 4-6 giờ | Dễ chèn sai/đổi chỗ |
+| 7 | Sinh viên | Bản nháp | File đúng format | 2-4 giờ | Nhiều lỗi nhỏ |
+| 8 | Sinh viên/nhóm | File báo cáo | Bản nộp cuối | 2-4 giờ | Review thủ công |
 
-**Bottleneck chinh:** buoc 5 va 6. Sinh vien biet minh da lam gi, nhung kho bien code/demo/test thanh van ban hoc thuat co cau truc va co bang chung.
+**Bottleneck chính:** bước 5 và 6. Sinh viên biết mình đã làm gì, nhưng khó biến code/demo/test thành văn bản học thuật có cấu trúc và có bằng chứng kèm theo.
 
 ## 3.2. Future workflow
 
 ```text
-FUTURE STATE - 7 buoc, uoc luong 9-16 gio cho ban nhap dau tien
+FUTURE STATE - 7 bước, ước lượng 9-16 giờ cho bản nháp đầu tiên
 
-[1 Sinh vien upload/goi tai lieu: source, README, screenshot, test, rubric]
--> [2 Rule kiem tra file bat buoc va dat ten]
--> [3 AI phan loai tai lieu + tao evidence matrix]
--> [4 AI de xuat outline theo rubric]
--> [5 AI draft tung phan dua tren bang chung da co] <-- AI intervention point
--> [6 Sinh vien review, sua, bo sung, xac nhan su that] <-- human boundary
--> [7 Export Markdown/LaTeX/PDF va checklist nop bai]
+[1 Sinh viên upload/gói tài liệu: source, README, screenshot, test, rubric]
+-> [2 Rule kiểm tra file bắt buộc và đặt tên]
+-> [3 AI phân loại tài liệu + tạo evidence matrix]
+-> [4 AI đề xuất outline theo rubric]
+-> [5 AI draft từng phần dựa trên bằng chứng đã có] <-- AI intervention point
+-> [6 Sinh viên review, sửa, bổ sung, xác nhận sự thật] <-- human boundary
+-> [7 Export Markdown/LaTeX/PDF và checklist nộp bài]
 
 Fallback:
-Neu AI khong tim du bang chung -> danh dau "Can bo sung", khong tu bia.
-Neu draft sai -> sinh vien loai bo doan sai va tu sua dua tren evidence.
+Nếu AI không tìm đủ bằng chứng -> đánh dấu "Cần bổ sung", không tự bịa.
+Nếu draft sai -> sinh viên loại bỏ đoạn sai và tự sửa dựa trên evidence.
 ```
 
-| Metric | Truoc | Sau ky vong | Ghi chu |
+| Metric | Trước | Sau kỳ vọng | Ghi chú |
 |---|---:|---:|---|
-| So buoc chinh | 8 | 7 | Khong giam nhieu buoc, nhung giam effort o buoc tong hop/viet |
-| Thoi gian co ban nhap dau tien | 24-40 gio | 9-16 gio | Metric pilot can do bang time log |
-| So muc bat buoc bi thieu | 3-5 muc/bao cao | <= 1 muc/bao cao | Do bang checklist theo rubric |
-| So claim khong co bang chung duoc dua vao final | Chua kiem soat | 0 | Claim khong co evidence phai bi flag |
-| Bottleneck moi | Review thu cong | Review va xac nhan su that | Chap nhan duoc vi day la boundary hoc tap |
-| Risk moi | Khong co hallucination AI | AI co the draft sai | Giam bang evidence matrix va human review |
+| Số bước chính | 8 | 7 | Không giảm nhiều bước, nhưng giảm effort ở bước tổng hợp/viết |
+| Thời gian có bản nháp đầu tiên | 24-40 giờ | 9-16 giờ | Metric pilot cần đo bằng time log |
+| Số mục bắt buộc bị thiếu | 3-5 mục/báo cáo | <= 1 mục/báo cáo | Đo bằng checklist theo rubric |
+| Số claim không có bằng chứng được đưa vào final | Chưa kiểm soát | 0 | Claim không có evidence phải bị flag |
+| Bottleneck mới | Review thủ công | Review và xác nhận sự thật | Chấp nhận được vì đó là boundary học tập |
+| Risk mới | Không có hallucination AI | AI có thể draft sai | Giảm bằng evidence matrix và human review |
 
 ---
 
@@ -169,95 +169,95 @@ Neu draft sai -> sinh vien loai bo doan sai va tu sua dua tren evidence.
 
 ## 4.1. Problem Statement v0
 
-| Field | Noi dung |
+| Field | Nội dung |
 |---|---|
-| **Actor** | Sinh vien lam bai tap lon, do an mon hoc, bao cao thuc tap hoac do an tot nghiep. |
-| **Workflow** | Sau khi lam xong san pham, sinh vien tim lai source code, README, anh demo, ket qua test, tai lieu tham khao, roi viet thanh bao cao dai theo mau giang vien. |
-| **Bottleneck** | Tong hop va trinh bay lai toan bo du an thanh bao cao co cau truc, dung voi nhung gi da lam, co bang chung kem theo. |
-| **Impact** | Mat 24-40 gio de co ban nhap dau tien; de thieu bang chung; co nguy co viet khong khop voi san pham thuc te; ap luc cao sat deadline. |
-| **Success Metric** | Giam thoi gian co ban nhap dau tien xuong 9-16 gio; so muc thieu trong checklist <= 1; claim khong co bang chung trong final = 0. |
-| **Boundary** | Khong de AI viet thay va nop thay; khong cho AI bia tinh nang/ket qua; khong thay sinh vien kiem chung noi dung; chi draft dua tren tai lieu duoc cung cap. |
+| **Actor** | Sinh viên làm bài tập lớn, đồ án môn học, báo cáo thực tập hoặc đồ án tốt nghiệp. |
+| **Workflow** | Sau khi làm xong sản phẩm, sinh viên tìm lại source code, README, ảnh demo, kết quả test, tài liệu tham khảo, rồi viết thành báo cáo dài theo mẫu giảng viên. |
+| **Bottleneck** | Tổng hợp và trình bày lại toàn bộ dự án thành báo cáo có cấu trúc, đúng với những gì đã làm, có bằng chứng kèm theo. |
+| **Impact** | Mất 24-40 giờ để có bản nháp đầu tiên; dễ thiếu bằng chứng; có nguy cơ viết không khớp với sản phẩm thực tế; áp lực cao sát deadline. |
+| **Success Metric** | Giảm thời gian có bản nháp đầu tiên xuống 9-16 giờ; số mục thiếu trong checklist <= 1; claim không có bằng chứng trong final = 0. |
+| **Boundary** | Không để AI viết thay và nộp thay; không cho AI bịa tính năng/kết quả; không thay sinh viên kiểm chứng nội dung; chỉ draft dựa trên tài liệu được cung cấp. |
 
-## 4.2. Do phu hop AI
+## 4.2. Độ phù hợp với AI
 
-| Cau hoi | Danh gia cua nhom |
+| Câu hỏi | Đánh giá của nhóm |
 |---|---|
-| Output co nhieu cach viet dung khong? | Co. Bao cao co tinh ngon ngu va cau truc hoc thuat. |
-| Co can tong hop nhieu nguon khong? | Co. Source code, README, demo, test, rubric, references. |
-| Co can AI tu quyet dinh hanh dong tiep theo khong? | Chua can trong pilot. Workflow co cac buoc ro. |
-| Neu AI sai, hau qua co chap nhan duoc khong? | Chap nhan duoc neu AI chi draft va sinh vien review truoc khi nop. |
+| Output có nhiều cách viết đúng không? | Có. Báo cáo có tính ngôn ngữ và cấu trúc học thuật. |
+| Có cần tổng hợp nhiều nguồn không? | Có. Source code, README, demo, test, rubric, references. |
+| Có cần AI tự quyết định hành động tiếp theo không? | Chưa cần trong pilot. Workflow có các bước rõ. |
+| Nếu AI sai, hậu quả có chấp nhận được không? | Chấp nhận được nếu AI chỉ draft và sinh viên review trước khi nộp. |
 
-**O phu hop:** do mo ho cao, do phuc tap cao vua phai. Chon **Workflow co AI ho tro**, chua chon Agent tu dong.
+**Ô phù hợp:** độ mơ hồ cao, độ phức tạp cao vừa phải. Chọn **Workflow có AI hỗ trợ**, chưa chọn Agent tự động.
 
 ---
 
 # 5. Rule / Workflow / Agent
 
-| Muc | Phuong an cho bai toan nhom | Khi nao du | Rui ro | Chon? |
+| Mức | Phương án cho bài toán nhóm | Khi nào đủ | Rủi ro | Chọn? |
 |---|---|---|---|---|
-| **No AI / Process fix** | Mau bao cao + checklist + folder template | Du neu sinh vien chi thieu format | Khong giai quyet viec bien du lieu rai rac thanh narrative | Khong chon lam toan bo |
-| **Rule** | Kiem tra file bat buoc, ten file, so chuong, muc nao thieu bang chung | Du cho checklist va validation co quy tac ro | Khong giup viet/giai thich phan ky thuat | Dung mot phan |
-| **Workflow** | Rule check input -> AI phan loai -> AI tao outline/evidence matrix -> AI draft -> sinh vien review -> export | Phu hop vi cac buoc ro, AI chi ho tro cac buoc ngon ngu/tong hop | Draft sai, thieu context, can human review | **Chon** |
-| **Agent** | Agent tu doc repo, tu hoi them, tu viet, tu sua format, tu nop | Chi phu hop khi co moi truong du quyen, log tot, co guardrail manh | Qua rong, de hallucinate, rui ro hoc thuat | Chua chon |
+| **No AI / Process fix** | Mẫu báo cáo + checklist + folder template | Đủ nếu sinh viên chỉ thiếu format | Không giải quyết việc biến dữ liệu rải rác thành narrative | Không chọn làm toàn bộ |
+| **Rule** | Kiểm tra file bắt buộc, tên file, số chương, mục nào thiếu bằng chứng | Đủ cho checklist và validation có quy tắc rõ | Không giúp viết/giải thích phần kỹ thuật | Dùng một phần |
+| **Workflow** | Rule check input -> AI phân loại -> AI tạo outline/evidence matrix -> AI draft -> sinh viên review -> export | Phù hợp vì các bước rõ, AI chỉ hỗ trợ các bước ngôn ngữ/tổng hợp | Draft sai, thiếu context, cần human review | **Chọn** |
+| **Agent** | Agent tự đọc repo, tự hỏi thêm, tự viết, tự sửa format, tự nộp | Chỉ phù hợp khi có môi trường đủ quyền, log tốt, guardrail mạnh | Quá rộng, dễ hallucinate, rủi ro học thuật | Chưa chọn |
 
-**Muc chon:** Workflow.
+**Mức chọn:** Workflow.
 
-**Vi sao chon:** workflow cua bai toan co duong di tuyen tinh va co nhieu buoc co the kiem soat. Rule phu hop cho checklist/file validation. AI phu hop cho phan phan loai, outline, draft narrative va phat hien missing evidence. Sinh vien van la nguoi xac nhan dung sai.
+**Vì sao chọn:** workflow của bài toán có đường đi tuyến tính và có nhiều bước có thể kiểm soát. Rule phù hợp cho checklist/file validation. AI phù hợp cho phần phân loại, outline, draft narrative và phát hiện missing evidence. Sinh viên vẫn là người xác nhận đúng sai.
 
-**Vi sao khong chon muc don gian hon:** Rule/checklist giam thieu sot nhung khong giai quyet bottleneck lon nhat la dien dat va ket noi bang chung thanh noi dung bao cao.
+**Vì sao không chọn mức đơn giản hơn:** Rule/checklist giảm thiếu sót nhưng không giải quyết bottleneck lớn nhất là diễn đạt và kết nối bằng chứng thành nội dung báo cáo.
 
-**Vi sao khong chon Agent:** pilot chua can AI tu lap ke hoach va tu hanh dong. Neu cho Agent tu doc repo/viet/nop, rui ro quyen truy cap, sai noi dung va vi pham nguyen tac hoc tap cao hon loi ich.
+**Vì sao không chọn Agent:** pilot chưa cần AI tự lập kế hoạch và tự hành động. Nếu cho Agent tự đọc repo/viết/nộp, rủi ro quyền truy cập, sai nội dung và vi phạm nguyên tắc học tập cao hơn lợi ích.
 
 ---
 
 # 6. Problem Statement v1
 
-| Field | Noi dung |
+| Field | Nội dung |
 |---|---|
-| **Actor** | Sinh vien/nhom sinh vien da hoan thanh phan lon san pham du an va can nop bao cao theo rubric cua giang vien. |
-| **Workflow** | Gom source code, README, screenshot demo, ket qua test, rubric, reference -> lap outline -> viet cac chuong -> gan bang chung -> format Markdown/LaTeX -> review va nop. |
-| **Bottleneck** | Bien nhieu thong tin rai rac thanh ban nhap bao cao co cau truc, khop voi san pham that va co bang chung cho tung claim. |
-| **Impact** | Uoc luong 24-40 gio de co ban nhap dau tien; de thieu 3-5 muc/bang chung; co nguy co viet noi dung khong ton tai trong du an. |
-| **Success Metric** | Trong pilot 1 bao cao: thoi gian co ban nhap dau tien giam xuong 9-16 gio; checklist thieu <= 1 muc; 100% claim quan trong co evidence hoac bi flag "can bo sung". |
-| **Boundary** | AI khong tu nop, khong tu bia so lieu/tinh nang/test, khong thay sinh vien chiu trach nhiem; neu khong co evidence thi phai danh dau thieu. |
-| **AI intervention point** | Sau khi sinh vien cung cap goi tai lieu du an, truoc buoc viet ban nhap bao cao. AI ho tro phan loai, tao outline, evidence matrix va draft tung phan. |
-| **Muc chon** | Workflow: rule/checklist + AI draft co evidence + human review. |
-| **Rui ro & nguoi that kiem tra** | Rui ro hallucination, bo sot module, dien dat qua chung chung. Sinh vien/nhom phai review tung claim, doi chieu voi repo/demo/test truoc khi nop. |
+| **Actor** | Sinh viên/nhóm sinh viên đã hoàn thành phần lớn sản phẩm dự án và cần nộp báo cáo theo rubric của giảng viên. |
+| **Workflow** | Gom source code, README, screenshot demo, kết quả test, rubric, reference -> lập outline -> viết các chương -> gắn bằng chứng -> format Markdown/LaTeX -> review và nộp. |
+| **Bottleneck** | Biến nhiều thông tin rải rác thành bản nháp báo cáo có cấu trúc, khớp với sản phẩm thật và có bằng chứng cho từng claim. |
+| **Impact** | Ước lượng 24-40 giờ để có bản nháp đầu tiên; dễ thiếu 3-5 mục/bằng chứng; có nguy cơ viết nội dung không tồn tại trong dự án. |
+| **Success Metric** | Trong pilot 1 báo cáo: thời gian có bản nháp đầu tiên giảm xuống 9-16 giờ; checklist thiếu <= 1 mục; 100% claim quan trọng có evidence hoặc bị flag "cần bổ sung". |
+| **Boundary** | AI không tự nộp, không tự bịa số liệu/tính năng/test, không thay sinh viên chịu trách nhiệm; nếu không có evidence thì phải đánh dấu thiếu. |
+| **AI intervention point** | Sau khi sinh viên cung cấp gói tài liệu dự án, trước bước viết bản nháp báo cáo. AI hỗ trợ phân loại, tạo outline, evidence matrix và draft từng phần. |
+| **Mức chọn** | Workflow: rule/checklist + AI draft có evidence + human review. |
+| **Rủi ro & người thật kiểm tra** | Rủi ro hallucination, bỏ sót module, diễn đạt quá chung chung. Sinh viên/nhóm phải review từng claim, đối chiếu với repo/demo/test trước khi nộp. |
 
 ---
 
 # 7. Final decision
 
-| Cau hoi | Yes / Not Yet / No | Ghi chu |
+| Câu hỏi | Yes / Not Yet / No | Ghi chú |
 |---|---|---|
-| Actor va workflow da ro chua? | Yes | Actor la sinh vien lam bao cao du an; workflow da ve duoc before/after. |
-| Baseline va success metric da do duoc chua? | Not Yet | Da co uoc luong, can pilot time log de xac nhan. |
-| Co data/input du dung chua? | Yes cho pilot nho | Can mot repo/project mau co README, screenshot, test result, rubric. |
-| Neu AI sai, hau qua co chap nhan duoc khong? | Yes neu co review | AI chi draft; sinh vien approve. |
-| Co nguoi review/owner van hanh khong? | Yes | Sinh vien/nhom la owner. |
-| Co cach non-AI don gian hon khong? | Co mot phan | Template/checklist nen dung kem, nhung khong du giai quyet narrative. |
+| Actor và workflow đã rõ chưa? | Yes | Actor là sinh viên làm báo cáo dự án; workflow đã vẽ được before/after. |
+| Baseline và success metric đã đo được chưa? | Not Yet | Đã có ước lượng, cần pilot time log để xác nhận. |
+| Có data/input đủ dùng chưa? | Yes cho pilot nhỏ | Cần một repo/project mẫu có README, screenshot, test result, rubric. |
+| Nếu AI sai, hậu quả có chấp nhận được không? | Yes nếu có review | AI chỉ draft; sinh viên approve. |
+| Có người review/owner vận hành không? | Yes | Sinh viên/nhóm là owner. |
+| Có cách non-AI đơn giản hơn không? | Có một phần | Template/checklist nên dùng kèm, nhưng không đủ giải quyết narrative. |
 
-**Decision:** Go voi scope nho.
+**Decision:** Go với scope nhỏ.
 
-**Ly do:** problem ro, workflow ro, co metric pilot, co boundary hoc thuat va khong can Agent ngay. RUI ro lon nhat la AI bia noi dung da duoc giam bang nguyen tac: khong co bang chung thi khong duoc xem la su that.
+**Lý do:** problem rõ, workflow rõ, có metric pilot, có boundary học thuật và không cần Agent ngay. Rủi ro lớn nhất là AI bịa nội dung đã được giảm bằng nguyên tắc: không có bằng chứng thì không được xem là sự thật.
 
-**Pilot nho nhat:**
+**Pilot nhỏ nhất:**
 
-1. Chon 1 du an sinh vien da co source code, README, 5-7 screenshot, test result va rubric.
-2. Dung workflow ban thu cong: sinh vien upload/copy input vao template.
-3. AI tao outline, evidence matrix va ban draft tung chuong.
-4. Sinh vien do: thoi gian co draft, so muc thieu, so claim sai/khong co bang chung, muc do hai long.
-5. Neu AI draft sai qua 30% claim quan trong hoac sinh vien phai viet lai gan nhu toan bo, ha scope ve template + checklist + evidence matrix.
+1. Chọn 1 dự án sinh viên đã có source code, README, 5-7 screenshot, test result và rubric.
+2. Dùng workflow bán thủ công: sinh viên upload/copy input vào template.
+3. AI tạo outline, evidence matrix và bản draft từng chương.
+4. Sinh viên đo: thời gian có draft, số mục thiếu, số claim sai/không có bằng chứng, mức độ hài lòng.
+5. Nếu AI draft sai quá 30% claim quan trọng hoặc sinh viên phải viết lại gần như toàn bộ, hạ scope về template + checklist + evidence matrix.
 
 ---
 
-# 8. Checklist tu kiem
+# 8. Checklist tự kiểm
 
-- [x] Nhom co nhat ky hoi tu tu nhieu candidate ve 1 candidate problem.
-- [x] Co validation/research va ghi ro gia dinh can kiem tiep.
-- [x] Co workflow truoc/sau, actor, input, output, thoi gian va bottleneck.
-- [x] Co Problem Statement v0/v1 voi metric va boundary.
-- [x] Co so sanh No AI / Rule / Workflow / Agent.
-- [x] Co decision Go / Not Yet / No-Go va pilot nho nhat.
-- [x] Co nguyen tac human review: AI ho tro, sinh vien chiu trach nhiem.
+- [x] Nhóm có nhật ký hội tụ từ nhiều candidate về 1 candidate problem.
+- [x] Có validation/research và ghi rõ giả định cần kiểm tiếp.
+- [x] Có workflow trước/sau, actor, input, output, thời gian và bottleneck.
+- [x] Có Problem Statement v0/v1 với metric và boundary.
+- [x] Có so sánh No AI / Rule / Workflow / Agent.
+- [x] Có decision Go / Not Yet / No-Go và pilot nhỏ nhất.
+- [x] Có nguyên tắc human review: AI hỗ trợ, sinh viên chịu trách nhiệm.
 
