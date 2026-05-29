@@ -26,24 +26,26 @@ Nhóm không chốt ngay "xây AI". Mỗi thành viên đưa ra các vấn đề
 | 1 | Đàm Mạnh Dũng | Sinh viên làm xong sản phẩm nhưng mất rất lâu để viết báo cáo dự án | Sinh viên năm cuối/làm bài tập lớn | Tổng hợp source code, demo, test, README thành báo cáo | Rất phù hợp |
 | 2 | Đàm Mạnh Dũng | Không biết cấu trúc báo cáo nên bắt đầu từ đâu | Sinh viên mới làm đồ án | Blank page, thiếu outline | Phù hợp |
 | 3 | Đàm Mạnh Dũng | Báo cáo thiếu bằng chứng: ảnh demo, kết quả test, giải thích tính năng | Sinh viên nộp bài | Không có evidence matrix | Rất phù hợp |
-| 4 | Nguyễn Hoàng Thanh Tùng | README và source code không khớp với báo cáo | Sinh viên dev | Update code nhưng quên update tài liệu | Phù hợp |
-| 5 | Nguyễn Hoàng Thanh Tùng | Viết giải thích kỹ thuật khó hiểu với người chấm | Sinh viên IT | Chuyển code thành ngôn ngữ học thuật | Phù hợp |
-| 6 | Nguyễn Phan Duy Bảo | Cần format báo cáo LaTeX/Word theo mẫu trường | Sinh viên | Mất nhiều thời gian sửa format | Phù hợp một phần |
-| 7 | Nguyễn Phan Duy Bảo | Không biết chèn hình/chứng cứ vào phần nào | Sinh viên làm demo | Evidence nằm rải rác | Phù hợp |
-| 8 | Nguyễn Phan Duy Bảo | Cuối deadline mới phát hiện thiếu chương kiểm thử | Sinh viên | Checklist nộp bài không rõ | Phù hợp |
-| 9 | Lê_Bá_Chiến | Báo cáo nhiều người viết bị lệch giọng văn | Nhóm sinh viên | Không thống nhất style | Phù hợp |
-| 10 | Lê_Bá_Chiến | Tìm tài liệu tham khảo và trích dẫn mất thời gian | Sinh viên | Reference management | Phù hợp nhưng scope lớn |
-| 11 | Lê_Bá_Chiến | Chuyển nội dung từ Markdown sang LaTeX lỗi format | Sinh viên | Lỗi bảng, hình, citation | Phù hợp một phần |
-| 12 | Lê_Bá_Chiến | Gộp feedback của giảng viên vào bản sửa khó theo dõi | Sinh viên | Không có version/checklist sửa lỗi | Scope lớn hơn |
+| 4 | Nguyễn Hoàng Thanh Tùng | Nhập tay metadata (số hiệu, ngày, cơ quan, tóm tắt) từ quyết định, nghị quyết giấy scan cũ vào E-Office | Chuyên viên chuyển đổi số, cán bộ lưu trữ | Đọc-gõ metadata từ ảnh scan mờ (mất 4-5 phút/văn bản) | Rất phù hợp |
+| 5 | Nguyễn Hoàng Thanh Tùng | Lục tìm thông tin chính sách trong kho tư liệu Đảng, văn kiện Nhà nước cũ dạng PDF scan | Cán bộ nghiệp vụ, nghiên cứu viên chính sách | Mở từng file PDF scan đọc lướt bằng mắt (Ctrl+F vô hiệu), mất 15-20 phút | Phù hợp |
+| 6 | Nguyễn Hoàng Thanh Tùng | Phân loại hồ sơ thủ tục hành chính nộp từ người dân/doanh nghiệp để chuyển về đúng phòng ban | Cán bộ một cửa, nhân viên văn thư | Đọc lướt hồ sơ để phân loại, thỉnh thoảng phân loại sai (mất 1-2 phút/hồ sơ) | Phù hợp |
+| 7 | Nguyễn Phan Duy Bảo | Cần format báo cáo LaTeX/Word theo mẫu trường | Sinh viên | Mất nhiều thời gian sửa format | Phù hợp một phần |
+| 8 | Nguyễn Phan Duy Bảo | Không biết chèn hình/chứng cứ vào phần nào | Sinh viên làm demo | Evidence nằm rải rác | Phù hợp |
+| 9 | Nguyễn Phan Duy Bảo | Cuối deadline mới phát hiện thiếu chương kiểm thử | Sinh viên | Checklist nộp bài không rõ | Phù hợp |
+| 10 | Lê_Bá_Chiến | Báo cáo nhiều người viết bị lệch giọng văn | Nhóm sinh viên | Không thống nhất style | Phù hợp |
+| 11 | Lê_Bá_Chiến | Tìm tài liệu tham khảo và trích dẫn mất thời gian | Sinh viên | Reference management | Phù hợp nhưng scope lớn |
+| 12 | Lê_Bá_Chiến | Chuyển nội dung từ Markdown sang LaTeX lỗi format | Sinh viên | Lỗi bảng, hình, citation | Phù hợp một phần |
+| 13 | Lê_Bá_Chiến | Gộp feedback của giảng viên vào bản sửa khó theo dõi | Sinh viên | Không có version/checklist sửa lỗi | Scope lớn hơn |
 
 ## 1.2. Gom trùng / cluster
 
 | Cluster | Candidates included | Pattern chung | Ghi chú |
 |---|---|---|---|
-| A. Tổng hợp báo cáo từ dự án thật | 1, 2, 3, 4, 5, 7, 8 | Biến nhiều nguồn dữ liệu dự án thành báo cáo có cấu trúc | Cluster mạnh nhất |
+| A. Tổng hợp báo cáo từ dự án thật | 1, 2, 3, 4, 5, 6, 7, 8 | Biến nhiều nguồn dữ liệu dự án thành báo cáo có cấu trúc | Cluster mạnh nhất |
 | B. Format và xuất tài liệu | 6, 11 | Chuyển nội dung sang LaTeX/Word theo mẫu | Nên là một phần trong workflow, không phải problem chính |
 | C. Quản lý tham khảo | 10 | Tìm và trích dẫn tài liệu | Cần giải pháp riêng, dễ vượt scope lab |
 | D. Làm việc nhóm và version | 9, 12 | Nhiều người viết, nhiều feedback, khó đồng bộ | Có liên quan nhưng scope rộng |
+| E. Số hóa và quản lý tài liệu công| 4, 5, 6 | Trích xuất, tra cứu và phân loại tài liệu hành chính công| Đề tài bối cảnh Chuyển đổi số của Tùng (không chọn) |
 
 ## 1.3. Shortlist
 
