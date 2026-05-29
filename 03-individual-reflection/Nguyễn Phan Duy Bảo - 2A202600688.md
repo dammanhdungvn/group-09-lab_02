@@ -6,7 +6,7 @@
 |---|---|---|
 | Scan cá nhân | Liệt kê 10 problems dựa trên trải nghiệm của bản thân về học tập và nghiên cứu. | Nhóm có một bộ scan phong phú, đạt điểm bonus. |
 | Pitch Problem Card | Pitch chi tiết về vấn đề Viết báo cáo và làm slide cuối kỳ của sinh viên. | Thuyết phục được nhóm đưa bài toán này vào danh sách shortlist. |
-| Challenge bài của bạn khác | Hỏi xem dự án "Reproduce paper" của bạn khác có khả thi trong 1 buổi lab không khi dữ liệu và tài nguyên tính toán hạn chế. | Giúp nhóm nhận ra độ phức tạp của bài toán và hạ xuống vị trí thứ 3 để tập trung bài toán khả thi hơn. |
+| Challenge bài của bạn khác | Hỏi xem dự án "GraphRAG Onboarding" của bạn khác có khả thi không khi việc index dữ liệu phi cấu trúc từ Slack rất phức tạp và chi phí API cao. | Giúp nhóm cân nhắc và giới hạn phạm vi dữ liệu cần xử lý của GraphRAG. |
 | Gom trùng / cluster | Phối hợp gom các ý tưởng về báo cáo và dịch thuật vào cùng một nhóm "Tổng hợp & soạn thảo". | Rút gọn danh sách candidate nhanh chóng. |
 | Chọn candidate problem | Thảo luận và chấm điểm dựa trên tiêu chí khả thi và mức độ lặp lại của bài toán viết báo cáo/slide. | Nhóm đồng thuận chọn bài toán viết báo cáo và slide làm bài toán nhóm để đào sâu. |
 | Validation / research | Thực hiện khảo sát nhanh qua chat với 5 bạn sinh viên khác về thời gian họ làm slide. | Thu được số liệu thực tế: trung bình mất 3-4 tiếng cho slide và 5 tiếng viết báo cáo. |
