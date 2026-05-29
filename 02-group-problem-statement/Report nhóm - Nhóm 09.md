@@ -42,9 +42,9 @@ Nhóm không chốt ngay "xây AI". Mỗi thành viên đưa ra các vấn đề
 | Cluster | Candidates included | Pattern chung | Ghi chú |
 |---|---|---|---|
 | A. Tổng hợp báo cáo từ dự án thật | 1, 2, 3, 4, 5, 6, 7, 8 | Biến nhiều nguồn dữ liệu dự án thành báo cáo có cấu trúc | Cluster mạnh nhất |
-| B. Format và xuất tài liệu | 6, 11 | Chuyển nội dung sang LaTeX/Word theo mẫu | Nên là một phần trong workflow, không phải problem chính |
-| C. Quản lý tham khảo | 10 | Tìm và trích dẫn tài liệu | Cần giải pháp riêng, dễ vượt scope lab |
-| D. Làm việc nhóm và version | 9, 12 | Nhiều người viết, nhiều feedback, khó đồng bộ | Có liên quan nhưng scope rộng |
+| B. Format và xuất tài liệu | 7, 12 | Chuyển nội dung sang LaTeX/Word theo mẫu | Nên là một phần trong workflow, không phải problem chính |
+| C. Quản lý tham khảo | 11 | Tìm và trích dẫn tài liệu | Cần giải pháp riêng, dễ vượt scope lab |
+| D. Làm việc nhóm và version | 10, 13 | Nhiều người viết, nhiều feedback, khó đồng bộ | Có liên quan nhưng scope rộng |
 | E. Số hóa và quản lý tài liệu công| 4, 5, 6 | Trích xuất, tra cứu và phân loại tài liệu hành chính công| Đề tài bối cảnh Chuyển đổi số của Tùng (không chọn) |
 
 ## 1.3. Shortlist
